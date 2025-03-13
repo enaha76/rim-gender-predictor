@@ -1,7 +1,7 @@
 import { useState } from "preact/hooks";
 
 // API base URL - change this to your FastAPI endpoint
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL = "https://rimgenderpredictor-q3rrpqq1.b4a.run";
 
 interface GenderPrediction {
   name: string;
